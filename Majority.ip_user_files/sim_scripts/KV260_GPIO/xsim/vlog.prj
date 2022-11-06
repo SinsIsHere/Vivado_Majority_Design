@@ -1,0 +1,13 @@
+verilog xil_defaultlib --include "D:/Programs/Xilinx/Vivado/2022.2/data/xilinx_vip/include" --include "../../../../Majority.gen/sources_1/bd/KV260_GPIO/ipshared/ec67/hdl" --include "../../../../Majority.gen/sources_1/bd/KV260_GPIO/ipshared/abef/hdl" \
+"../../../bd/KV260_GPIO/ip/KV260_GPIO_xlslice_0_1/sim/KV260_GPIO_xlslice_0_1.v" \
+"../../../bd/KV260_GPIO/ip/KV260_GPIO_Majority_Module_0_4/sim/KV260_GPIO_Majority_Module_0_4.v" \
+"../../../bd/KV260_GPIO/ip/KV260_GPIO_zynq_ultra_ps_e_0_1/sim/KV260_GPIO_zynq_ultra_ps_e_0_1_vip_wrapper.v" \
+"../../../bd/KV260_GPIO/ip/KV260_GPIO_xlslice_1_0/sim/KV260_GPIO_xlslice_1_0.v" \
+"../../../bd/KV260_GPIO/ip/KV260_GPIO_xlslice_2_0/sim/KV260_GPIO_xlslice_2_0.v" \
+"../../../bd/KV260_GPIO/ip/KV260_GPIO_xlconcat_0_0/sim/KV260_GPIO_xlconcat_0_0.v" \
+"../../../bd/KV260_GPIO/ip/KV260_GPIO_xlconstant_0_0/sim/KV260_GPIO_xlconstant_0_0.v" \
+"../../../bd/KV260_GPIO/sim/KV260_GPIO.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

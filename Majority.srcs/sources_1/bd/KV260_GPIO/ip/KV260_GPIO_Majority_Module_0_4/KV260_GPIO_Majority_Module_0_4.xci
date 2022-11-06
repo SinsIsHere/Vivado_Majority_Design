@@ -1,0 +1,48 @@
+{
+  "schema": "xilinx.com:schema:json_instance:1.0",
+  "ip_inst": {
+    "xci_name": "KV260_GPIO_Majority_Module_0_4",
+    "cell_name": "Majority_Module_0",
+    "component_reference": "xilinx.com:module_ref:Majority_Module:1.0",
+    "ip_revision": "1",
+    "gen_directory": "../../../../../../Majority.gen/sources_1/bd/KV260_GPIO/ip/KV260_GPIO_Majority_Module_0_4",
+    "parameters": {
+      "component_parameters": {
+        "Component_Name": [ { "value": "KV260_GPIO_Majority_Module_0_4", "resolve_type": "user", "usage": "all" } ]
+      },
+      "project_parameters": {
+        "ARCHITECTURE": [ { "value": "zynquplus" } ],
+        "BASE_BOARD_PART": [ { "value": "xilinx.com:kv260_som:part0:1.4" } ],
+        "BOARD_CONNECTIONS": [ { "value": "" } ],
+        "DEVICE": [ { "value": "xck26" } ],
+        "PACKAGE": [ { "value": "sfvc784" } ],
+        "PREFHDL": [ { "value": "VERILOG" } ],
+        "SILICON_REVISION": [ { "value": "" } ],
+        "SIMULATOR_LANGUAGE": [ { "value": "MIXED" } ],
+        "SPEEDGRADE": [ { "value": "-2LV" } ],
+        "STATIC_POWER": [ { "value": "" } ],
+        "TEMPERATURE_GRADE": [ { "value": "C" } ],
+        "USE_RDI_CUSTOMIZATION": [ { "value": "TRUE" } ],
+        "USE_RDI_GENERATION": [ { "value": "TRUE" } ]
+      },
+      "runtime_parameters": {
+        "IPCONTEXT": [ { "value": "IP_Integrator" } ],
+        "IPREVISION": [ { "value": "1" } ],
+        "MANAGED": [ { "value": "TRUE" } ],
+        "OUTPUTDIR": [ { "value": "../../../../../../Majority.gen/sources_1/bd/KV260_GPIO/ip/KV260_GPIO_Majority_Module_0_4" } ],
+        "SELECTEDSIMMODEL": [ { "value": "" } ],
+        "SHAREDDIR": [ { "value": "../../ipshared" } ],
+        "SWVERSION": [ { "value": "2022.2" } ],
+        "SYNTHESISFLOW": [ { "value": "GLOBAL" } ]
+      }
+    },
+    "boundary": {
+      "ports": {
+        "A": [ { "direction": "in" } ],
+        "B": [ { "direction": "in" } ],
+        "C": [ { "direction": "in" } ],
+        "Z": [ { "direction": "out" } ]
+      }
+    }
+  }
+}

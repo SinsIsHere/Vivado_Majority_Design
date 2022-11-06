@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"KV260_GPIO": {
+			"proto_instances": {
+			}
+		}
+	}
+}
